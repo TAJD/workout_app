@@ -1,11 +1,10 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-from utils import (
-    get_log
-)
+from utils import get_log
 
 pd.options.display.float_format = "{:,.0f}".format
+
 
 def app():
     st.markdown("# Plots ")
