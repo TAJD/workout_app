@@ -7,6 +7,7 @@ import streamlit as st
 
 URI_SQLITE_DB = "test.db"
 
+
 def init_db(conn: Connection):
     conn.execute(
         """
