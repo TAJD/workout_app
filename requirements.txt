@@ -4,3 +4,4 @@ pylint
 streamlit
 pandas
 plotly
+sqlite3
